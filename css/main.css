@@ -1,4 +1,10 @@
-
-h1, h2, h3, p{
-	font-family:  'Nunito Sans', sans-serif;
+img{
+    position: relative;
+    display: block;
+}
+body{
+    background-color: #bcd1e5;
+}
+.main-logo{
+    margin-top: 20px;
 }
