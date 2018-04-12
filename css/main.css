@@ -30,7 +30,14 @@ footer{
 }
 .top-logo-block{
     background-color: #19bc9c;
-    padding: 20px;
+    padding-bottom: 100px;
+}
+.top-logo-block img{
+    padding-top: 100px;
+    padding-top: 100px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (max-width: 992px){
     .navbar-expand-lg{
