@@ -1,10 +1,39 @@
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    color:#C40909;
+}
 img{
     position: relative;
     display: block;
 }
 body{
-    background-color: #bcd1e5;
+    background-color: #;
+    min-width: 100%;
+    
+    padding-top: 60px;
 }
-.main-logo{
-    margin-top: 30px;
+footer{
+    min-width: 100%;
+    
+}
+.navbar-toggler{
+    background-color: aquamarine !important;
+}
+.nav-link{
+    color: #C40909 !important;
+    font-size: 1.2rem;
+}
+.top-logo-block{
+    background-color: #19bc9c;
+    padding: 20px;
+}
+@media (max-width: 992px){
+    .navbar-expand-lg{
+        
+    }
 }
