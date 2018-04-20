@@ -1,4 +1,5 @@
 a { color: inherit; } 
+a:hover{ color: inherit; }
 ul {
     list-style-type: none;
   }
@@ -74,6 +75,19 @@ footer h5{
 .center{
     margin-left: auto;
     margin-right: auto;
+}
+
+.fa-instagram:hover{
+    color: #fb3958;
+}
+.instagram:hover{
+    color: #fb3958;
+}
+.facebook:hover{
+    color: 	#8b9dc3;
+}
+.twitter:hover{
+    color: #1dcaff;
 }
 @media (max-width: 992px){
     .navbar-expand-lg{
