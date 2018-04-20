@@ -89,6 +89,10 @@ footer h5{
 .twitter:hover{
     color: #1dcaff;
 }
+.copyright{
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
 @media (max-width: 992px){
     .navbar-expand-lg{
         
