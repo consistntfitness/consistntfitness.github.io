@@ -97,5 +97,7 @@ footer{
 }
 
 @media all and (max-width: 480px) {
-	
+	.top-logo-block img{
+        width: 50%;
+    }
 }
