@@ -12,7 +12,7 @@ img{
     display: block;
 }
 body{
-    background-color: #;
+    background-color: #FCFAF9;
     min-width: 100%;
     
     padding-top: 60px;
@@ -20,6 +20,9 @@ body{
 footer{
     min-width: 100%;
     
+}
+.navbar{
+    background-color: #333333;
 }
 .navbar-toggler{
     background-color: aquamarine !important;
@@ -29,7 +32,7 @@ footer{
     font-size: 1.2rem;
 }
 .top-logo-block{
-    background-color: #19bc9c;
+    background-color: #0d0d0d;
     padding-bottom: 100px;
 }
 .top-logo-block img{
