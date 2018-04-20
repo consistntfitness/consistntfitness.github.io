@@ -28,6 +28,7 @@ body{
 footer{
     min-width: 100%;
     padding-top: 50px;
+    background-color: black !important;
 }
 footer h5{
     font-family: 'Nunito Sans', sans-serif;
