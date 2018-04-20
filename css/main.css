@@ -105,6 +105,13 @@ footer h5{
     background-color: lightgrey;
     min-height: 100px;
 }
+.square-logo{
+    display:inline-block;
+    position:fixed;
+    left:50px;
+    bottom:50px;
+    opacity: 0;
+}
 @media (max-width: 992px){
     .navbar-expand-lg{
         

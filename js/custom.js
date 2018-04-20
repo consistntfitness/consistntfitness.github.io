@@ -1,7 +1,8 @@
 $(document).ready(function() {
-    function instant(){
-        $('.logo').delay(1).animate({opacity: 1},500);
+    function instant(object,time){
+        $(object).delay(time).animate({opacity: 1},500);
     }
-    instant();
-    $("#oos-button")
+    instant('.logo',200);
+    instant('.square-logo', 1000);
+    $("#oos-button").click()
 });
