@@ -4,5 +4,9 @@ $(document).ready(function() {
     }
     instant('.logo',200);
     instant('.square-logo', 1000);
-    $("#oos-button").click()
+
+    $("#oos-button").click(function(){
+        $("#oos").fadeToggle();
+    })
+    
 });

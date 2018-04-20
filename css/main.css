@@ -124,6 +124,10 @@ footer h5{
 .card-extention{
     background-color: lightgrey;
     min-height: 100px;
+    display: none;
+}
+.img-responsive {
+    width: 100%;
 }
 .square-logo{
     display:inline-block;
@@ -163,14 +167,33 @@ footer h5{
     .top-logo-block img{
         width: 50%;
     }
+    p, h1,h2,h3,h4,h5,a{
+        text-align: center;
+    }
+    .square-logo{
+        display: none !important;
+    }
+    .a{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-self: center;
+        text-decoration: none;
+    }
 }
 
 @media all and (max-width: 480px) {
 	.top-logo-block img{
         width: 50%;
     }
-    p, h1,h2,h3,h4,h5{
+    p, h1,h2,h3,h4,h5,a{
         text-align: center;
+    }
+    .a{
+        margin: 0 auto;
+        text-align: center;
+        align-self: center;
+        text-decoration: none;
     }
     .square-logo{
         display: none !important;
