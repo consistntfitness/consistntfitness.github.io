@@ -77,8 +77,8 @@ footer h5{
     margin-right: auto;
 }
 
-.fa-instagram:hover{
-    color: #fb3958;
+.instagram ,.facebook ,.twitter{
+    transition: all 0.3s ease-in-out;
 }
 .instagram:hover{
     color: #fb3958;
