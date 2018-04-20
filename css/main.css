@@ -12,6 +12,9 @@ h1{
     font-style: bold;
     color:#C40909;
 }
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+}
 img{
     position: relative;
     display: block;
@@ -29,6 +32,9 @@ footer{
 footer h5{
     font-family: 'Nunito Sans', sans-serif;
     margin-right: 10px;
+}
+.message{
+    background-color: #0d0d0d;
 }
 .logo{opacity: 0;}
 .navbar{
