@@ -33,6 +33,7 @@ footer h5{
 .logo{opacity: 0;}
 .navbar{
     background-color: #333333;
+    opacity: 0.8;
 }
 .navbar-toggler{
     background-color: aquamarine !important;
