@@ -25,6 +25,10 @@ footer{
     min-width: 100%;
     padding-top: 50px;
 }
+footer h5{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 10px;
+}
 .logo{opacity: 0;}
 .navbar{
     background-color: #333333;
