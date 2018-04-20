@@ -1,3 +1,7 @@
+a { color: inherit; } 
+ul {
+    list-style-type: none;
+  }
 p{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.1rem;
@@ -19,7 +23,7 @@ body{
 }
 footer{
     min-width: 100%;
-    
+    padding-top: 50px;
 }
 .navbar{
     background-color: #333333;
@@ -39,6 +43,30 @@ footer{
     padding-top: 100px;
     padding-top: 100px;
     width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-primary{
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}
+.btn-primary:hover{
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}
+.info-box{
+    margin-bottom: 30px;
+}
+.footer-content{
+    color: #FCFAF9;
+}
+.footer-content h5, i{
+    display: inline-block;
+}
+.links{
+    
+}
+.center{
     margin-left: auto;
     margin-right: auto;
 }
