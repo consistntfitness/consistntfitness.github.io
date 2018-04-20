@@ -8,7 +8,7 @@ p{
     font-size: 1.1rem;
 }
 h1{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: bold;
     color:#C40909;
 }
@@ -60,12 +60,12 @@ footer h5{
     margin-right: auto;
 }
 .btn-primary{
-    background-color: #ff4d4d;
-    border-color: #ff4d4d;
+    background-color: #C40909 !important;
+    border-color: #C40909 !important;
 }
 .btn-primary:hover{
-    background-color: #ff4d4d;
-    border-color: #ff4d4d;
+    background-color: #C40909 !important;
+    border-color: #C40909 !important;
 }
 .info-box{
     margin-bottom: 30px;
@@ -108,16 +108,24 @@ footer h5{
 
 
 @media all and (min-width: 1280px) and (max-width: 4000px) {
-	
+	.navbar{
+        display: none !important;
+    }
 }
 @media all and (min-width: 1024px) and (max-width: 1280px) {
-	    
+    .navbar{
+        display: none !important;
+    }
 }
 @media all and (min-width: 970px) and (max-width: 1024px) {
-	
+	.navbar{
+        display: none !important;
+    }
 }
 @media all and (min-width: 800px) and (max-width: 969px) {
-	
+	.navbar{
+        display: none !important;
+    }
 }
 @media all and (min-width: 480px) and (max-width: 800px) {
     .top-logo-block img{
