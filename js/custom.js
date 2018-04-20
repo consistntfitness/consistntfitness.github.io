@@ -3,4 +3,5 @@ $(document).ready(function() {
         $('.logo').delay(1).animate({opacity: 1},500);
     }
     instant();
+    $("#oos-button")
 });
