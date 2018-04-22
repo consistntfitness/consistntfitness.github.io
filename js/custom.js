@@ -13,6 +13,7 @@ $(document).ready(function() {
     })
     $("#pt-button").click(function(){
         $("#pt").fadeToggle();
+        
     })
     $("#ofp-button").click(function(){
         $("#ofp").fadeToggle();

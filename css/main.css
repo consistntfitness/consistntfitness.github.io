@@ -42,11 +42,11 @@ footer h5{
 }
 .logo{opacity: 0;}
 .navbar{
-    background-color: #333333;
-    opacity: 0.8;
+    background-color: #19bc9c;
+    opacity: 1.0;
 }
 .navbar-toggler{
-    background-color: aquamarine !important;
+    background-color: inherit !important;
 }
 .nav-link{
     color: #C40909 !important;
