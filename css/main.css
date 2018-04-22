@@ -42,15 +42,18 @@ footer h5{
 }
 .logo{opacity: 0;}
 .navbar{
-    background-color: #19bc9c;
+    background-color:#10bc8c;
     opacity: 1.0;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.09), 0 1px 8px rgba(0,0,0,0.09);
 }
 .navbar-toggler{
     background-color: inherit !important;
 }
 .nav-link{
-    color: #C40909 !important;
+    color: #fff !important;
     font-size: 1.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
 }
 .top-logo-block{
     background-color: #0d0d0d;
