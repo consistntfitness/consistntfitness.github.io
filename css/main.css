@@ -20,7 +20,7 @@ img{
     display: block;
 }
 body{
-    background-color: #FCFAF9;
+    background-color: #Fffff;
     min-width: 100%;
     
     padding-top: 60px;
@@ -33,6 +33,9 @@ footer{
 footer h5{
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 10px;
+}
+.spacing{
+    margin-bottom: 30px;
 }
 .message{
     background-color: #0d0d0d;
@@ -112,6 +115,10 @@ footer h5{
 .twitter:hover{
     color: #1dcaff;
 }
+.carousel-item{
+    max-height: 310px;
+    width: auto;
+}
 .copyright{
     padding-bottom: 10px;
     font-size: 0.9em;
@@ -122,7 +129,7 @@ footer h5{
     
 }
 .card-extention{
-    background-color: lightgrey;
+    background-color:inherit;
     min-height: 100px;
     display: none;
 }
@@ -135,6 +142,22 @@ footer h5{
     left:50px;
     bottom:50px;
     opacity: 0;
+    transition: filter ease-in-out 0.3s;
+}
+.slide-overlay{
+    
+    position: absolute;
+    top: 1px;
+    height: 100%;
+    width: 100%;
+}
+.slide-overlay p{
+    font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 45px;
 }
 @media (max-width: 992px){
     .navbar-expand-lg{

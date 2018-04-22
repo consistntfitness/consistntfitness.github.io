@@ -8,5 +8,14 @@ $(document).ready(function() {
     $("#oos-button").click(function(){
         $("#oos").fadeToggle();
     })
+    $("#fs-button").click(function(){
+        $("#fs").fadeToggle();
+    })
+    $("#pt-button").click(function(){
+        $("#pt").fadeToggle();
+    })
+    $("#ofp-button").click(function(){
+        $("#ofp").fadeToggle();
+    })
     
 });
