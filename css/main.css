@@ -141,9 +141,9 @@ footer h5{
 }
 .square-logo{
     display:inline-block;
-    position:fixed;
-    left:50px;
-    bottom:50px;
+    position:relative;
+    float: right;
+    margin-right: 55px;
     opacity: 0;
     transition: filter ease-in-out 0.3s;
 }
